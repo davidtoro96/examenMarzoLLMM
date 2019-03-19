@@ -26,7 +26,7 @@ nav {
 
 section {
 	background: #8bffff;
-	grid-area: section;    
+	grid-area: section; 	
 }
 
 aside {
@@ -39,9 +39,23 @@ footer {
 	grid-area: footer;
 }
 
-header, nav, section, aside, footer {
+header, nav, section, aside {
 	padding: 5px;
 	text-align: center;
 }
 
+h1{
+	text-align:center;
+}
 
+article {
+	display:flex;
+	flex-flow:wrap;
+		padding:15px;
+		margin:10px;
+		background: white;
+		width:30%;
+		border-radius: 10% 69%;
+}
+#fecha{
+text-align:right;}
